@@ -1,27 +1,28 @@
-package br.com.vitotorino;
+package br.com.vitorino;
 
 import java.util.List;
 
-public class Car {
+public class CarRequestDTO {
 
     private String name;
 
-    private List<Tire> tires;
+    private List<TireRequestDTO> tires;
 
     public String getName() {
         return name;
     }
 
-    public List<Tire> getTires() {
+    public List<TireRequestDTO> getTires() {
         return tires;
     }
 
-    public void setTires(List<Tire> tires) {
+    public void setTires(List<TireRequestDTO> tires) {
         this.tires = tires;
     }
 
     public void setName(String name) {
         this.name = name;
     }
+
     
 }

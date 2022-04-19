@@ -1,4 +1,4 @@
-package br.com.vitotorino;
+package br.com.vitorino;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
